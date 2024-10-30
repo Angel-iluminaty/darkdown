@@ -45,7 +45,7 @@ def download_video(user_choice, video_url, resolutions):
     if result.returncode != 0:
         fun.handle_error(result.stderr)  # Print the error message
     else:
-        print(c.color_text(" Video downloaded ✓", c.GREEN, c.BOLD))
+        print(c.color_text(" Video descargado ✓", c.GREEN, c.BOLD))
         print(c.color_text(f" Video path : [{fun.config["Paths"]["video_dir"]}]", c.BRIGHT_GREEN, c.BOLD))
 
 
@@ -61,14 +61,14 @@ def download_audio(url):
         "--progress",  # Show progress
         url,
     ]
-    print(c.color_text(" ➡ Downloading the best audio...", c.BRIGHT_YELLOW))
+    print(c.color_text(" ➡ Descargando el mejor audio...", c.BRIGHT_YELLOW))
     # Run the command using subprocess
     result = subprocess.run(command)
     # Check if there was an error
     if result.returncode != 0:
         fun.handle_error(result.stderr)  # Print the error message
     else:
-        print(c.color_text(" Audio downloaded ✓", c.GREEN, c.BOLD))
+        print(c.color_text(" Audio descargado ✓", c.GREEN, c.BOLD))
         print(c.color_text(f" Audio path : [{fun.config["Paths"]["audio_dir"]}]", c.BRIGHT_GREEN, c.BOLD))
 
 
