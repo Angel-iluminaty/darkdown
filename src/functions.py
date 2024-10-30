@@ -125,7 +125,7 @@ def get_user_option(start, end, prompt):
 # Display available resolutions
 def print_resolutions(resolutions):
     print(c.color_text("┌───────────────┐", c.YELLOW))
-    print(c.color_text(" * Resolutions * ", c.BRIGHT_RED, c.BOLD))
+    print(c.color_text(" * Resoluciones * ", c.BRIGHT_RED, c.BOLD))
     print(c.color_text("└───────────────┘", c.YELLOW))
     print(c.color_text("│ [0] Audio     │", c.CYAN))
     for i, option in enumerate(resolutions, 1):
@@ -149,7 +149,7 @@ def is_valid_youtube_url(url):
 
 def get_video_url():
     # Print the prompt message
-    print(c.color_text("\n\n[*] Enter the video URL:", c.BLUE, c.BOLD))
+    print(c.color_text("\n\n[*] Introduce la URL del vídeo:", c.BLUE, c.BOLD))
     # Get the user input on a new line
     video_url = input().strip()
     if not is_valid_youtube_url(video_url):
