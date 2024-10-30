@@ -19,7 +19,7 @@ def main_menu():
 def main():
     while True:
         main_menu()
-        choice = fun.get_user_option(1, 3, c.color_text("\n[*] Enter your choice: ", c.BLUE, c.BOLD))
+        choice = fun.get_user_option(1, 3, c.color_text("\n[*] Ingrese su elección: ", c.BLUE, c.BOLD))
         fun.exit_option(choice, 3)
 
         if choice == 1:
