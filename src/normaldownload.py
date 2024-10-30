@@ -23,7 +23,7 @@ def get_resolutions():
 # Function to handle the download using yt-dlp
 def download_video(user_choice, video_url, resolutions):
     resolution = resolutions[user_choice]
-    print(c.color_text(f" ➡ Downloading video in {resolution}p...", c.BRIGHT_YELLOW))
+    print(c.color_text(f" ➡ Descargando vídeo en {resolution}p...", c.BRIGHT_YELLOW))
 
     # Command to run yt-dlp with format selection
     command = [
@@ -73,7 +73,7 @@ def download_audio(url):
 
 
 def perform_downloading(resolutions, video_url):
-    user_choice = fun.get_user_option(0, len(resolutions) + 1, "\n[*] Select Your Format: ")
+    user_choice = fun.get_user_option(0, len(resolutions) + 1, "\n[*] Seleccione su formato: ")
 
     fun.exit_option(user_choice, len(resolutions) + 1)
 
