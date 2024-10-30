@@ -24,7 +24,7 @@ def display_header():
     print(c.color_text("         ██║  ██║██╔══██║██╔══██╗██╔═██╗", c.DEEP_DARK_RED))
     print(c.color_text("         ██████╔╝██║  ██║██║  ██║██║  ██╗", c.DEEP_DARK_RED))
     print(c.color_text("         ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝", c.DEEP_DARK_RED))
-   print(f"{c.color_text(' ██████╗  ██████╗ ██╗    ██╗███╗   ██╗', c.DEEP_DARK_RED)}")
+    print(f"{c.color_text(' ██████╗  ██████╗ ██╗    ██╗███╗   ██╗', c.DEEP_DARK_RED)}")
     print(f"{c.color_text('██║  ██║██║   ██║██║ █╗ ██║██╔██╗ ██║', c.DEEP_DARK_RED)}")
     print(f"{c.color_text('██║  ██║██║   ██║██║███╗██║██║╚██╗██║', c.MEDIUM_RED)}")
     print(f"{c.color_text('██████╔╝╚██████╔╝╚███╔███╔╝██║ ╚████║', c.DEEP_DARK_RED)}")
