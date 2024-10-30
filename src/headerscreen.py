@@ -24,17 +24,14 @@ def display_header():
     print(c.color_text("         ██║  ██║██╔══██║██╔══██╗██╔═██╗", c.DEEP_DARK_RED))
     print(c.color_text("         ██████╔╝██║  ██║██║  ██║██║  ██╗", c.DEEP_DARK_RED))
     print(c.color_text("         ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝", c.DEEP_DARK_RED))
-   print(f"{c.color_text(' ██████╗  ██████╗ ██╗    ██╗███╗   ██╗', c.DEEP_DARK_RED)}")
-    print(f"{c.color_text('██║  ██║██║   ██║██║ █╗ ██║██╔██╗ ██║', c.DEEP_DARK_RED)}")
-    print(f"{c.color_text('██║  ██║██║   ██║██║███╗██║██║╚██╗██║', c.MEDIUM_RED)}")
-    print(f"{c.color_text('██████╔╝╚██████╔╝╚███╔███╔╝██║ ╚████║', c.DEEP_DARK_RED)}")
-    print(f"{c.color_text('╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝', c.DEEP_DARK_RED)}")
+    print(f"{c.color_text('⠀⠀⠀⠀⠀⠀⢀⣀⣀⣀⣠⣤⣄⡀⠀⠀', c.WHITE)} {c.color_text(' ██████╗  ██████╗ ██╗    ██╗███╗   ██╗', c.DEEP_DARK_RED)}")
+    print(f"{c.color_text(' ⠀⣠⣴⣾⣿⢿⣿⣻⣟⣿⣻⢯⣿⢿⣦⠀', c.WHITE)} {c.color_text('██║  ██║██║   ██║██║ █╗ ██║██╔██╗ ██║', c.DEEP_DARK_RED)}")
+    print(f"{c.color_text(' ⢰⣿⣟⡷⣯⣿⡾⢿⣾⣽⣯⢿⣽⣯⣿⠀', c.WHITE)} {c.color_text('██║  ██║██║   ██║██║███╗██║██║╚██╗██║', c.MEDIUM_RED)}")
+    print(f"{c.color_text(' ⠘⣿⣾⣻⣽⡾⣿⠀⢀⣭⣿⣟⡷⣯⣿⡆', c.WHITE)} {c.color_text('██████╔╝╚██████╔╝╚███╔███╔╝██║ ╚████║', c.DEEP_DARK_RED)}")
+    print(f"{c.color_text(' ⠀⣿⣷⣻⢷⣟⣿⣶⣿⣟⡷⣯⣿⣻⣾⠇', c.WHITE)} {c.color_text('╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝', c.DEEP_DARK_RED)}")
     print(c.color_text(" ⠀⢹⣯⣟⡿⣾⢯⣷⣟⣾⣿⣽⣾⠷⠋", c.WHITE))
     print(c.color_text(" ⠀⠀⠀⠉⠛⠛⠋⠉⠁", c.WHITE))
-    print(c.color_text(" Creador: Angel Del Villar", c.YELLOW))
-    print(c.color_text("Github: https://github.com/Angel-iluminaty", c.WHITE))
 
 
 if __name__ == "__main__":
     display_header()
-    
