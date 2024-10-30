@@ -31,6 +31,8 @@ def display_header():
     print(f"{c.color_text(' ⠀⣿⣷⣻⢷⣟⣿⣶⣿⣟⡷⣯⣿⣻⣾⠇', c.WHITE)} {c.color_text('╚═════╝  ╚═════╝  ╚══╝╚══╝ ╚═╝  ╚═══╝', c.DEEP_DARK_RED)}")
     print(c.color_text(" ⠀⢹⣯⣟⡿⣾⢯⣷⣟⣾⣿⣽⣾⠷⠋", c.WHITE))
     print(c.color_text(" ⠀⠀⠀⠉⠛⠛⠋⠉⠁", c.WHITE))
+    print(c.color_text(" Creador: Angel Del Villar", c.WHITE))
+    print(c.color_text("Github: https://github.com/Angel-iluminaty", c.WHITE))
 
 
 if __name__ == "__main__":
