@@ -137,7 +137,7 @@ def print_resolutions(resolutions):
 
 def select_warning():
     print(c.color_text("┌────────────────────────────────────────┐", c.MEDIUM_RED))
-    print(c.color_text("│ ❗Warning : Please select a resolution │ \n│  that your video is supported          │", c.MEDIUM_RED))
+    print(c.color_text("│ ❗Advertencia : Por favor seleccione una resolución │ \n│  que tu video es compatible          │", c.MEDIUM_RED))
     print(c.color_text("└────────────────────────────────────────┘", c.MEDIUM_RED))
 
 
