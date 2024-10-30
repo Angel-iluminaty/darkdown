@@ -9,7 +9,7 @@ header.display_header()
 
 
 def main_menu():
-    fun.title_screen("* Select a Download Method *")
+    fun.title_screen("* Seleccione un método de descarga. *")
     print(" " * 20 + c.color_text("[1] Normal Download ", c.BRIGHT_WHITE, c.BOLD))
     print(" " * 20 + c.color_text("[2] Deep Download   ", c.BRIGHT_WHITE, c.BOLD))
     print(" " * 20 + c.color_text("[3] Exit            ", c.RED, c.BOLD))
